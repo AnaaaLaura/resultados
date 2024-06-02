@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+:root {
+
+    font-size: 62.5%;
+    --resultado-bg: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    --white: #fff;
+    --light-blue: #CAC9Ff;
+}
+
+body {
+
+    font-size: 1.6rem;
+}
+ 
+
+.resultados {
+
+    padding-block: 2.4rem;
+    background: var(--resultado-bg);
+    text-align: center;
+    color: var(--white);
+}
+
+.resultados h1 {
+
+    font-size: 1.8rem;
+    color: var(--light-blue);
+    margin-bottom: 2.5rem;
+}
