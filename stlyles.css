@@ -176,18 +176,13 @@ body {
         grid-template-columns: 1fr 1fr;
         width: 736px;
         background: var(--white);
-        border-radius: 3.2rem 0 0 3.2rem;
+        border-radius: 3.2rem;
     }
 
     .resultados {
 
         padding-block: 3.8rem;
         border-radius: 3.2rem;
-    }
-
-    section {
-
-        width: 100%;
     }
 
     .resultados h1 {
